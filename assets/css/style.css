@@ -1,0 +1,309 @@
+body {
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.services_headtext {
+    font-size: 24px;
+}
+
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: #5f43b2; /* IE */
+}
+
+.navbar-img {
+    width: 70px;
+}
+
+.jumbotron {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/national-theatre.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-width: 100%;
+    background-attachment: fixed;
+    color: #fefdfd;
+}
+
+.butn {
+    background-color: #5f43b2;
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    color: #fefdfd;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.butn:hover {
+    background-color: #6f2da8;
+}
+
+.header_text {
+    color: #010101;
+}
+
+.head_text {
+    color: #5f43b2;
+    overflow: hidden;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.head_text::before, .head_text::after {
+    background: #5f43b2;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.head_text::before {
+    right: 0.5px;
+    margin-left: -50%;
+}
+
+.head_text::after {
+    left: 0.5px;
+    margin-right: -50%;
+}
+
+/*----  Main Style  ----*/
+#to_let{
+    /* background: #F7F7F7; */
+}
+
+#cards_landscape_wrap-2{
+    /* text-align: center; */
+}
+
+#cards_landscape_wrap-2 a{
+    text-decoration: none;
+    outline: none;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+    border-radius: 5px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box{
+    background: #ffffff;
+    overflow: hidden;
+    /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50); */
+    /* border-radius: 5px; */
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box img{
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+    width: 100%;
+    height: 200px;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+    opacity: 0.7;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box{
+    /* text-align: center; */
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+    background-color: #5f43b2;
+    margin-top: -50px;
+    position: relative;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover .text-box .text-container{
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.20);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+#cards_landscape_wrap-2 .card-flyer{
+    background: #FFFFFF;
+    margin-top: 50px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    /* box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40); */
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover{
+    background: #fff;
+    /* box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50); */
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 50px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #b1aebb;;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container .price .new_price {
+    color: #fefdfd;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container .price .new_price .per_month {
+    color: #b1aebb;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container .property_list {
+    list-style: none;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container h5{
+    font-size: 18px; 
+    /* letter-spacing: 1px; */
+    color: #fefdfd;
+}
+
+
+
+#why_us .transparent_card{
+    cursor: default;
+}
+
+#why_us .transparent_card p {
+    color: #b1aebb;
+}
+
+#why_us .transparent_card h5 {
+    color: #010101;
+}
+
+#why_us .transparent_card:hover {
+
+}
+
+.fa_bg {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #fefdfd;
+    
+}
+
+.transparent_card .fa_bg {
+    background-color: #5f43b2;   
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.transparent_card:hover .fa_bg {
+    -webkit-transform: rotate(360deg);   
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+
+.rs_how {
+    background-color: #010101;
+}
+
+.rs_how .head_text {
+    color: #fefdfd;
+}
+
+.rs_how h2 {
+    color: #fefdfd;
+}
+
+.rs_how .fa_bg {
+    background-color: #6f2da8;
+}
+
+.rs_how p {
+    line-height: 2em;
+}
+
+
+.full_how {
+    background: url('../img/interior.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}   
+
+.full_people {
+    background: url('../img/people.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-background {
+    background-color: #fff;
+    margin-left: -120px !important; 
+    box-shadow: -20px 0px 10px 0px rgb(0 0 0 / 13%);
+}
+
+@media only screen and (max-width: 576px) {
+    .full_people {
+        height: 100vh; 
+    }
+
+    .text-background {
+        margin-left: 0 !important; 
+        box-shadow: none;
+    }
+    
+}
+
+.display_parag {
+    color: #b1aebb;
+}
+
+.owl_carousel_container {
+    box-shadow: 0 5px 21px -14px rgb(0 0 0 / 14%);
+    border: 1px solid rgba(0,0,0,.02);
+}
+
+.carousel_parag {
+    color: #b1aebb;
+    line-height: 2em;
+}
+
+.user_img {
+    border-radius: 50%;
+    width: 70px !important;
+    height: 70px !important;
+}
+
